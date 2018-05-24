@@ -1,0 +1,163 @@
+html,body,#app{
+	width: 100%;
+	height: 100%;
+}.hello{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+.btn{
+	width: 1.24rem;
+	height: 0.55rem;
+	position: absolute;
+	right: 0.1rem;
+	bottom: 0.24rem;
+	border-radius: 6px;
+	font-size: 0.24rem;
+	border: none;
+	background: rgba(102, 0, 0, 1);
+	color: white;
+	outline: none;
+}
+.left img{
+	width: 2rem;
+}
+.all{
+	display: flex;
+}
+header{
+	position: relative;
+	height: 1.1rem;
+	border-bottom: 1px solid #ccc;
+}
+header p{
+	color: rgba(102, 0, 0, 1);
+}
+header span{
+	font-size: 0.3rem;
+	line-height: 0.5rem;
+	font-weight: bold;
+}
+header span em{
+	color: rgba(102, 0, 0, 1);
+}
+.seach{
+	height: 2.7rem;
+	width: 100%;
+	background: red;
+	background: url(u20.jpg)no-repeat ;
+	background-size: 100% 100%;
+	position: relative;
+}
+.seach a{
+	color:rgba(102, 0, 0, 1) ;
+}
+.seachimg{
+	display: flex;
+	position: absolute;
+	top: 30%;
+	left: 4%;
+}
+.seachimg input{
+	width: 4.5rem;
+	height: 0.6rem;
+	background: rgba(242, 242, 242, 1);
+	border: none;
+}
+.seachimg button{
+	width: 1.5rem;
+	color: crimson;
+}
+hr{
+	height: 0.01rem;
+	background:  rgba(102, 0, 0, 1);
+}
+.up{
+	height: 1.7rem;
+	/*background: red;*/
+	display: flex;
+	margin-top: 0.1rem;
+	font-size: 0.25rem;
+}
+.up span{
+	color: rgba(102, 0, 0, 1);
+}
+.up_2{
+	display: flex;
+	flex-direction: column;
+	padding-left: 0.2rem;
+}
+.up_2 p{
+	font-size: 0.22rem;
+	margin-top: 0.1rem;
+}
+.up_1{
+	width: 20%;
+	border-right: 1px solid  rgba(102, 0, 0, 1);
+}
+.up_1 img{
+	width: 1.2rem;
+}
+.down{
+	height: 4rem;
+	background: rgba(255, 204, 153, 1);
+	line-height: 0.3rem;
+	font-size: 0.2rem;
+}
+.twoheader{
+	height: 1.5rem;
+	position: relative;
+}
+.twoheader a{
+	position: absolute;
+	left: 0.1rem;
+	top: 0.4rem;
+}
+.twoheader div{
+	position: absolute;
+	right: 0;
+	top: 0.2rem;
+	padding-bottom: 0.1rem;
+	border-bottom: 2px solid rgba(102, 0, 0, 1);
+}
+.tworight  span{
+	font-size: 0.24rem;
+	line-height: 0.5rem;
+	font-weight: bold;
+}
+.twoheadespan  em{
+	color: rgba(102, 0, 0, 1);
+}
+.twoheader div p{
+	margin-left: 0.7rem;
+	color: rgba(102, 0, 0, 1);
+}
+.to img{
+	width: 100%;
+}
+h4 {
+	text-align: center;
+}
+.show{
+	background: rgba(255, 204, 153, 1);
+	height: 3.7rem;
+}
+.seach_0 input{
+	width: 80%;
+	height: 0.6rem;
+	margin-top: 0.2rem;
+	margin-left: 0.6rem;
+}
+h2{
+	text-align: center;
+	margin-top: 1.6rem;
+}
+h2 button{
+	width: 50%;
+	border: none;
+	height: 0.55rem;
+	border-radius: 10px;
+	color: white;
+	background: rgba(102, 0, 0, 1);
+}
